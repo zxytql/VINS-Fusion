@@ -5,15 +5,15 @@
 imu: 1         
 num_of_cam: 1  
 
-imu_topic: "/imu0"
+imu_topic: "/imu"
 image0_topic: "/cam0/image_raw"
 image1_topic: "/cam1/image_raw"
 output_path: "/home/zxx/VINS-Fusion_ws/output"
 
-cam0_calib: "cam0_mei.yaml"
-cam1_calib: "cam1_mei.yaml"
-image_width: 752
-image_height: 480
+cam0_calib: "cam0_pinhole.yaml"
+cam1_calib: "cam1_pinhole.yaml"
+image_width: 1280
+image_height: 720
    
 
 # Extrinsic parameter between IMU and Camera.
